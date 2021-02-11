@@ -4,24 +4,85 @@
     </head>
     <body style="margin: 0; font-family: Arial, Helvetica, sans-serif;">
         <nav style="background-color: rgb(17, 17, 16); width: 100%; height: 40px; display:flex; justify-content: space-between;">
-            <h1 style="color: white; margin: 5px;"><i class="fas fa-utensils"></i> Profile</h1> 
+            <h1 style="color: white; margin: 5px;"></h1> 
         </nav>
+        <h1>Profil</h1>
+        <h2>Hier Konnen Sie Iher Adress-Angaben einsehen und anpassen</h2>
 
         <form>
-            <h2>Personalich Daten</h2>
+            <hr>
+            <div>
+            <h3>Personalich Daten</h3>
+            <label for="Title">Title:</label>  
+            <input type="text" name="Title" id="Title" placeholder="Ms/Msr"><br><br>
+
+            <label for="Vorname">Vorname:</label>
+            <input type="text" name="Vorname" id="Vorname"><br><br>
+
+            <label for="Nachname">Nachname:</label>
+            <input type="text" name="Nachname" id="Nachname"><br><br>
+
+            <label>Geschlecht</label>
+    	    <select name="Geschlecht">
+    	         <option value="Mannlich">M</option>
+    	         <option value="Weiblish">W</option>
+    	    </select><br><br>
+
+
+            <label>Sprache</label>
+    	    <select name="Sprache">
+                <option value="English">En</option>
+                <option value="Arabic">Ar</option>
+    	         <option value="Deutch">De</option>
+    	         <option value="French">Fr</option>
+                 <option value="Italian">It</option>
+    	    </select><br><br>
+        </div>
         </form>
-
+        <hr>
         <form>
-            <h2>Kontactdaten</h2>
+            <h3>Kontactdaten</h3>
+
+            <label for="Telefon">Telefon:</label>  
+            <input type="tel" name="Telefon" id="Telefon" placeholder="add your number"><br><br>
+            <label for="Mobile">Mobile:</label>  
+            <input type="tel" name="Mobile" id="Mobile" placeholder="optional"><br><br>
+            <label for="Fax">Fax:</label>  
+            <input type="tel" name="Fax" id="Fax" placeholder="optional"><br><br>
+            <label for="Mail">Mail:</label>  
+            <input type="text" name="Mail" id="Mail" placeholder="optional"><br><br>
+            <label for="Linkedin">Linkedin:</label>  
+            <input type="text" name="Linkedin" id="Linkedin" placeholder="optional"><br><br>
+
         </form>
-
+        <hr>
         <form>
-            <h2>Adressdaten</h2>
+            <h3>Adressdaten</h3>
+            <label for="Firma">Firma:</label>  
+            <input type="text" name="Firma" id="Firma" placeholder="add your company name"><br><br>
+            <label for="Zusata Firma">Zusata Firma:</label>  
+            <input type="text" name="Zusata Firma" id="Zusata Firma" placeholder="add your company name"><br><br>
+            <label for="Homepage">Homepage:</label>  
+            <input type="url" name="Homepage" id="Homepage" placeholder="optional"><br><br>
+            <label for="Adresse/Haus Nr">Adresse/Haus Nr:</label>  
+            <input type="text" name="Adresse/Haus Nr" id="Adresse/Haus Nr" placeholder="add your address"><br><br>
+            <label for="Zusata Adresse">Zusata Adresse:</label>  
+            <input type="text" name="Zusata Adresse" id="Zusata Adresse" placeholder="add your company address"><br><br>
+            <label for="Postfach">Postfach:</label>  
+            <input type="number" name="Postfach" id="Postfach" placeholder="optional"><br><br>
+            <label for="Plz/ort">Plz/ort:</label>  
+            <input type="text" name="Plz/ort" id="Plz/ort">
+            <input type="text" name="Plz/ort" id="Plz/ort"><br><br>
+            <label for="Kanton/land">Kanton/land:</label>  
+            <input type="text" name="Kanton/land" id="Kanton/land" >
+            <input type="text" name="Kanton/land" id="Kanton/land" ><br><br>
         </form>
 
     
         <footer>
-           
+           <form>
+            <input name="Speichern" id="Speichern" type="Speichern" value="Speichern">
+           </form>
         </footer>
 
     </body>
